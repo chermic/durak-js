@@ -1,4 +1,4 @@
-import { CardSuit, Deck, Player } from "./types";
+import { CardSuit, Deck } from "./types";
 import { getTrump, getNewDeck } from "./utils";
 
 class Game {

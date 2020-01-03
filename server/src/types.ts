@@ -13,8 +13,3 @@ interface DeckCard extends CardRank {
 }
 
 export type Deck = DeckCard[];
-
-export interface Player {
-  cards: DeckCard[];
-  currentPlayerTurn: boolean;
-}

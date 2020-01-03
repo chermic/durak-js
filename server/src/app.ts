@@ -5,7 +5,7 @@ import bodyParser from 'body-parser';
 const app = express();
 app.use(morgan('dev'));
 app.use(bodyParser.json());
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 const run = (): void => {
   app.listen(port, () => {
